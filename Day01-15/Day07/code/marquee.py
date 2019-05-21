@@ -1,5 +1,5 @@
 """
-输入学生考试成绩计算平均分
+跑马灯程序
 
 Version: 0.1
 Author: 骆昊
@@ -17,7 +17,7 @@ def main():
         time.sleep(0.2)
         str = str[1:] + str[0:1]
         # for Windows use os.system('cls') instead
-        os.system('clear')
+        os.system('cls')
 
 
 if __name__ == '__main__':
